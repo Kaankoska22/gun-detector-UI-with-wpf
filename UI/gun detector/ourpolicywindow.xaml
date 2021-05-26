@@ -1,0 +1,52 @@
+﻿<Window x:Class="gun_detector.ourpolicywindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gun_detector"
+        mc:Ignorable="d"
+        Title="ourpolicywindow" Height="670" Width="1234.4" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" >
+    <Grid>
+        <Canvas>
+            <Ellipse x:Name="ELİPSEXİT" Style="{DynamicResource STYLEEXİTELLİPSE}" Panel.ZIndex="90" Canvas.Left="942" Canvas.Top="71" MouseDown="ELİPSEXİT_MouseDown" Stroke="Red" StrokeThickness="2">
+
+            </Ellipse>
+            <TextBlock Panel.ZIndex="99" Style="{DynamicResource  STYLETEXTBLOCMİN}" x:Name="TEXTBLOKSCREENMİN" Canvas.Left="884" TextWrapping="Wrap" Text="  __" Canvas.Top="78"  FontFamily="Segoe UI Black"  Foreground="Red" Height="43" Width="43" MouseDown="TEXTBLOKSCREENMİN_MouseDown" />
+            <TextBlock TextWrapping="Wrap" Panel.ZIndex="75" Foreground="Black" Width="673" Height="206" Canvas.Left="291" Canvas.Top="255" Text="Our story began in 1880 in a small shotgun workshop destined to become one of the world's largest manufacturing plants of firearms. Today, 139 years later, it is now headed by Aral Alis, a fifth-generation descendant of the original owners. Sarsilmaz is a well-established manufacturer of small arms with an enviable reputation worldwide.  Our brand-new state-of-the-art manufacturing facility is equipped with the latest technology available in CNC machining equipment, including eleven-axis mills and robotic cells that are a showcase of modern manufacturing.  Continuous investment into R&amp;D, technologically advanced equipment and expanding product lines have resulted in the company's ability to produce outstanding pistols and shotguns for customers in 78 countries.  Sarsilmaz is the only privately-owned company in Turkey that has the capability of producing guns for law enforcement, military and civil use. Considering that Turkey has the second largest army in NATO, we take great pride in being the sole supplier of pistols for the Turkish National Police and the Turkish Armed Forces.  In 2013, we became an active competitor in the aviation industry. More than 100 aviation components are being produced for AIRBUS MILITARY, Sikorsky, BOEING, and Agusta Westland, in co-operation with TAI-Turkish Airforce Industries, Roketsan and TEI –Turkish Engine Industries. Today, Sarsilmaz has become one of the largest subcontractors in the aviation industry."/>
+            <TextBlock Panel.ZIndex="99" Style="{DynamicResource  STYLETEXTBLOCMİN}" x:Name="TEXTBLOKSCREENEXİT" Canvas.Left="950" TextWrapping="Wrap" Text="   X" Canvas.Top="84"  FontFamily="Segoe UI Black"  Foreground="Red" MouseDown="TEXTBLOKSCREENEXİT_MouseDown" Height="35" Width="49" />
+            <Ellipse x:Name="ELİPSCREENMİN" Style="{DynamicResource STYLEEXİTELLİPSE}" Panel.ZIndex="90"  Canvas.Left="871" Canvas.Top="71" MouseDown="ELİPSCREENMİN_MouseDown" Stroke="Red" StrokeThickness="2"></Ellipse>
+            <Border CornerRadius="90,0,90,90" Height="461" Width="748" Canvas.Left="248" Canvas.Top="90" Background="Red">
+
+                <Border CornerRadius="90,0,90,90" Background="Red" Margin="0,0,0,-0.2">
+
+                    <Grid>
+                        <Border Margin="90,50,96,343.8" CornerRadius="60">
+                            <Border.Effect>
+                                <DropShadowEffect Direction="250"/>
+                            </Border.Effect>
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White"/>
+                                    <GradientStop Color="Red" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <TextBlock HorizontalAlignment="Center" FontSize="36" Margin="199,2,70.6,-1.8" Width="292" Foreground="White">OUR POLİCY</TextBlock>
+                        </Border>
+                        <Border Margin="12,136,14,63.8" CornerRadius="60">
+                            <Border.Effect>
+                                <DropShadowEffect Direction="250"/>
+                            </Border.Effect>
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White"/>
+                                    <GradientStop Color="#FFFA0000" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <Border x:Name="TOPSİDEFORDRAG" Margin="14,-2,0,417.8" CornerRadius="90,0,0,0" Background="#FFF3F3F3" MouseLeftButtonDown="TOPSİDEFORDRAG_MouseLeftButtonDown"/>
+                    </Grid>
+                </Border>
+            </Border>
+        </Canvas>
+    </Grid>
+</Window>

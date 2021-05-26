@@ -1,0 +1,62 @@
+﻿<Window x:Class="gun_detector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gun_detector"
+        mc:Ignorable="d"
+       Title="PASSWORDSCREEN"  Height="388" Width="826" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  >
+    <Grid>
+        <Canvas Margin="0,-1,-0.4,1.6">
+            <TextBlock  Foreground="White" Panel.ZIndex="99" Canvas.Left="62" FontSize="15" Canvas.Top="41" Width="330" Height="19">CLOSE DISTANCE DEFENSE SYSTEM LOG-İN</TextBlock>
+
+
+            <!--MAİN BORDER-->
+            <Border Background="White" Height="312" Width="749" Canvas.Left="30" Canvas.Top="29" CornerRadius="60,0,60,60">
+
+                <!--MENU BORDER-->
+                <Border x:Name="BORDERTOPSİDE" Margin="3,-1,-0.2,270"  CornerRadius="60,0,0,0" Background="#FFB91D1D" MouseLeftButtonDown="BORDERTOPSİDE_MouseLeftButtonDown" HorizontalAlignment="Left" Width="746">
+
+                </Border>
+
+
+                <Border.Effect>
+                    <DropShadowEffect Direction="250" ShadowDepth="7" Opacity="0.9"/>
+                </Border.Effect>
+
+
+            </Border>
+            <Image Height="116" Width="100" Canvas.Left="62" Canvas.Top="91"  Source="images\logo.PNG"></Image>
+            <Image Height="116" Width="100" Canvas.Left="649" Canvas.Top="91"   Source="images\logo.PNG"></Image>
+            <Border  Height="62" Width="348" Canvas.Left="224" Canvas.Top="83" >
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="#FFF60000" FontFamily="Times New Roman" FontSize="24" Text="CLOSE DISTANCE DEFENSE SYSTEM" Margin="-14,0,-128,0" Width="490"/>
+            </Border>
+            <StackPanel Cursor="Hand" Canvas.Left="340" Canvas.Top="287" Height="29" Width="115" Orientation="Horizontal">
+                <Image  x:Name="face" Margin="1"  Style="{ DynamicResource STYLESOCİALMEDİABUTONS}" Source="images/facebook.png" MouseDown="face_MouseDown_1"></Image>
+                <Image  Margin="1" x:Name="insta"   Style="{ DynamicResource STYLESOCİALMEDİABUTONS}" Source="images/insta.png" MouseDown="insta_MouseDown_1"></Image>
+                <Image  Margin="1" x:Name="twitter"  Style="{ DynamicResource STYLESOCİALMEDİABUTONS}" Source="images/twitter.png" MouseDown="twitter_MouseDown_1"></Image>
+                <Image  Margin="1" x:Name="linkle"  Style="{ DynamicResource STYLESOCİALMEDİABUTONS}" Source="images/linledin.png" MouseDown="linkle_MouseDown_1"></Image>
+            </StackPanel>
+            <StackPanel Height="138" Width="236" Canvas.Left="281" Canvas.Top="149" Orientation="Vertical">
+                <TextBox x:Name="TXTCARID" Style="{DynamicResource   STYLETEXTBOX}" HorizontalContentAlignment="Center" Margin="10" VerticalContentAlignment="Center" Height="30"  Foreground="Red" BorderBrush="Red" SelectionBrush="White" LostFocus="TXTCARID_LostFocus_1" GotFocus="TXTCARID_GotFocus_1" >CAR ID</TextBox>
+                <TextBlock HorizontalAlignment="Center" Foreground="Red">PASSWORD</TextBlock>
+                <PasswordBox x:Name="PASSWORDBOX" Style="{DynamicResource   STYLEPASSWORDBOX}" HorizontalContentAlignment="Center" Margin="10,0,10,10" VerticalContentAlignment="Center" Height="30"  BorderBrush="Red"></PasswordBox>
+                <Button Cursor="Hand" Style="{DynamicResource STYLEBUTON}" x:Name="btnlogin" Margin="10,0,10,0" Click="btnlogin_Click"  >LOG İN</Button>
+            </StackPanel>
+
+            <Ellipse  Style="{DynamicResource  STYLEEXİTELLİPSE}"   Canvas.Left="734" Stroke="Black" Canvas.Top="8"  x:Name="BTNEXİT" MouseDown="BTNEXİT_MouseDown"/>
+            <Ellipse  Style="{DynamicResource  STYLEEXİTELLİPSE}"  x:Name="BTNMİN" Canvas.Left="665" Stroke="Black" Canvas.Top="7" />
+            <TextBlock Style="{DynamicResource  STYLETEXTBLOCMİN}" x:Name="TEXTBLOKSCREENMİN" Canvas.Left="678" TextWrapping="Wrap" Text="  __" Canvas.Top="23"  FontFamily="Segoe UI Black"  Foreground="Red" />
+            <TextBlock Style="{DynamicResource  STYLETEXTBLOCMİN}" x:Name="TEXTBLOKSCREENEXİT" Canvas.Left="753" TextWrapping="Wrap" Text=" X" Canvas.Top="24"  FontFamily="Segoe UI Black"  Foreground="Red" MouseDown="TEXTBLOKSCREENEXİT_MouseDown" />
+
+        </Canvas>
+        <Ellipse x:Name="shadow" Margin="82,340,97.6,5">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Red" Offset="0.3"/>
+                    <GradientStop Color="White" Offset="0.706"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</Window>

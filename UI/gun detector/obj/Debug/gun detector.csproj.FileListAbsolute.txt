@@ -1,0 +1,20 @@
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector.csprojAssemblyReference.cache
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\MainWindow.g.cs
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\App.g.cs
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector_MarkupCompile.cache
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector_MarkupCompile.lref
+C:\Users\kaank\Desktop\gun detector\gun detector\bin\Debug\gun detector.exe.config
+C:\Users\kaank\Desktop\gun detector\gun detector\bin\Debug\gun detector.exe
+C:\Users\kaank\Desktop\gun detector\gun detector\bin\Debug\gun detector.pdb
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\App.baml
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\MainWindow.baml
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector.g.resources
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun_detector.Properties.Resources.resources
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector.csproj.GenerateResource.cache
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector.csproj.CoreCompileInputs.cache
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector.exe
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\gun detector.pdb
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\managment_screen.g.cs
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\managment_screen.baml
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\ourpolicywindow.g.cs
+C:\Users\kaank\Desktop\gun detector\gun detector\obj\Debug\ourpolicywindow.baml
